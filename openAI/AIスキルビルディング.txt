@@ -1,0 +1,416 @@
+## 研修内容
+
+<aside>
+<img src="/icons/report_blue.svg" alt="/icons/report_blue.svg" width="40px" /> **RULE & TIPS**
+
+### **☆ かける時間 ＝ やるべき粒度**
+
+- 設定されている時間より短すぎず長すぎず. 時間内で学べることをできるだけたくさん学ぶ．
+- 各項目で達成すべきレベルを意識する（知っている < 理解する < 自分で実装できる）
+
+### **☆ 進め方は, 実際の仕事と同じ**
+
+　　**＝ ROI（＝アウトプット/コスト）を最大化する。**
+
+- わからないことがある時は, 適切なタイミングで質問する
+    - 自分でできることは試してみる（ネット検索, ChatGPT, etc…）
+    - 一方で, 時間を使いすぎたり, アウトプットの質が低くなったりするのもNG
+- この研修資料はあなた用. この中にToDoリストやスケジュールを追加してもOK！
+</aside>
+
+<aside>
+🛠
+
+**neoAI ドキュメント**
+
+---
+
+- [AIソリューション](https://www.notion.so/AI-8ae75afdcc364a9f983285726b2b7351?pvs=21)
+    - トップにあるドキュメントを適宜参照してください。
+- [勉強会・技術共有会](https://www.notion.so/ddda67ee21354e3986cc41c58b184fc9?pvs=21)
+    - 毎週木曜に勉強会を開催しています。過去の資料を参考にしてください。
+- [勉強会 【入門編】](https://www.notion.so/65a22c1218024fd1832120dd0ff2d77e?pvs=21)
+    - 月曜・火曜・金曜に隔週で勉強会入門編を開催しています。上記の勉強会・技術共有会よりも優しめの内容で開催しているので、研修中にもぜひ参加してください。
+</aside>
+
+<aside>
+<img src="/icons/command-line_gray.svg" alt="/icons/command-line_gray.svg" width="40px" />
+
+**コーディング研修**
+
+---
+
+- [エンジニアリング研修](https://www.notion.so/8793825c6c17498b9845acadef0ac8bf?pvs=21)
+- [LLM との向き合い方](https://www.notion.so/LLM-8a13ce9ab26e4f96aa56dacb98b4d18e?pvs=21)
+</aside>
+
+## Part0: 学生メンバーとして働くための準備（1.5h）
+
+---
+
+<aside>
+🚀 **このパートの目的**
+
+- neoAIの学生メンバーとして働く準備をする
+- AIスキル以前の前提条件を身につける
+    - Notion の使い方、Slack の使い方
+</aside>
+
+### 学生メンバー向け心得を読む（1h）
+
+- 1h [学生メンバー向け心得](https://www.notion.so/2f76ce4190ad46a3accb120297a6969e?pvs=21) を読む
+
+### notion に慣れよう（0.25h）
+
+- 0.25h notionのデータベースの仕組みや、便利機能をマスターする
+
+[Notion チュートリアル](https://www.notion.so/Notion-eddee3b699a549fdb4e4c39f3059846f?pvs=21)
+
+<aside>
+<img src="/icons/star-outline_gray.svg" alt="/icons/star-outline_gray.svg" width="40px" /> **各 PJ の報告資料例(※編集厳禁)**
+
+---
+
+- **🏹 Sagittarius（集英社）**
+- **🐐 Capricorn（英検）**
+    
+    [3期PoC 第7回MTG共有資料 5/16](https://www.notion.so/3-PoC-7-MTG-5-16-3493d8cbd77443a39dc20872d429853b?pvs=21)
+    
+- **🏺 Aquarius（オリックス）**
+    
+    [0308_定例MTG資料](https://www.notion.so/0308_-MTG-2a3270b40119418fac38fd97d164d3f6?pvs=21)
+    
+- **🐻 Ursa-major（九州電力）**
+    - [240122_定例MTG_#9](https://www.notion.so/240122_-MTG_-9-5afacdc9fb354d4682d3445e165d5c0c?pvs=21)
+- **🌊 Eridanus （スクロール）**
+    - [240522_共有資料#9](https://www.notion.so/240522_-9-afd84d576a2a426cbfeb666ffd309979?pvs=21)
+</aside>
+
+### Slack の使い方（0.25h）
+
+- 0.25h [slack ルール](https://www.notion.so/slack-be9faa344a854e88986192c8f55f71da?pvs=21) を読む
+
+## **Part1**: **DL以外の機械学習 (~40h)**
+
+---
+
+<aside>
+🚀 **このパートの目的**
+
+- テーブルデータコンペに取り組み、種々の機械学習手法を扱えるようになる。
+- python 周辺のモジュールに慣れ、手が早く動くエンジニアになる。
+</aside>
+
+### プランA（GCI未修了レベル）
+
+---
+
+- 20h **書籍『東京大学のデータサイエンティスト育成講座』を読む**
+    - 基本的なpythonモジュールについて, ドキュメント等を参照しながらであれば自分でコードが書けるようになる
+    - テーブルデータに関する, 種々の機械学習手法を理解する
+    - サポートサイト
+        
+        [『東京大学のデータサイエンティスト育成講座』サポートサイト | マイナビブックス](https://book.mynavi.jp/supportsite/detail/9784839965259.html)
+        
+        - サンプルファイル（.ipynb）をダウンロードできるので、それをGoogleDriveにアップしてGoogleColabNotebookとして動かすのが良いと思います
+            
+            
+            | ID | パスワード |
+            | --- | --- |
+            | 6525 | c39psx6r |
+- 4h **書籍『kaggleで勝つ』を読む**
+    - テーブルコンペの精度向上に必要な知識を理解する
+    - 『Titanic』(↓)をやりながら, 必要な箇所をかいつまんで読んで試すのが良い
+    - 参考) 最低限テーブルデータコンペで必要な箇所
+        - 1.5, 2.1~2.4, 3.1~3.5, 4.1~4.5, 5.1~5.2, 6全部, 7.1~7.4
+    
+- 12h **Kaggleのコンペ『Titanic』に取り組む**
+    
+    [Titanic - Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)
+    
+    - [VSCode](https://www.notion.so/VSCode-cf0637d647aa41af865535140ca6687e?pvs=21) を参照してセッティング
+    - 時間内でできる限りの工夫をして, 精度向上を図る
+    - どんな工夫をして, どのように精度が変わったかレポート形式でまとめる
+        - 目標精度：`78%`
+    - 参考になりそうなnotebook
+        
+        ※ kaggleのnotebook欄でvote順にソートすると良いものが見つかりやすい
+        
+        - [EDA To Prediction(DieTanic)](https://www.kaggle.com/code/ash316/eda-to-prediction-dietanic)
+            - 探索的データ分析（EDA）
+        - [[Beginners] Basic Workflow Introduction](https://www.kaggle.com/code/vikumsw/beginners-basic-workflow-introduction)
+            - データの前処理
+                - 欠損値の補完
+                - カテゴリカルデータの処理
+                - （連続値データの離散化）← やらなくても良いかも
+            - ベースラインモデルの構築
+            - 特徴量エンジニアリング
+            - クロスバリデーション
+            - アンサンブル
+        
+
+<aside>
+<img src="/icons/flag-swallowtail_orange.svg" alt="/icons/flag-swallowtail_orange.svg" width="40px" /> **成果物：レポートをもとにTitanic精度向上に関するディスカッション**
+
+- レポートテンプレート（一例）
+    
+    [Titanic report template](https://www.notion.so/Titanic-report-template-0682a1f947534be2809a14d5734e7703?pvs=21)
+    
+</aside>
+
+### プランB（GCI修了レベル）
+
+---
+
+- プランAの内容を照らし合わせながら, 改めて取り組むべきものがあれば取り組む
+- なければPart2に進む
+
+<aside>
+<img src="/icons/flag-swallowtail_orange.svg" alt="/icons/flag-swallowtail_orange.svg" width="40px" /> **成果物：テーブルデータの機械学習に関するディスカッション**
+
+</aside>
+
+## **Part2**: **深層学習の基礎** (~35h)
+
+---
+
+<aside>
+🚀 **このパートの目的**
+
+- 種々のDLタスクに取り組む上で、必ず知っておかなければならない、深層学習の基礎を抑える。
+- 画像認識の精度向上に取り組み、その実験結果をクライアントに報告できる形にまとめる。
+</aside>
+
+<aside>
+🚨 **実行環境について**
+
+- ここからは GPU を使用して学習を回すことが多くなるので、**Google Colab Pro+ を契約してから研修を行ってください**
+    - https://colab.research.google.com/signup/pricing?hl=ja
+    - 料金は経費申請するようにしてください
+
+※ Pro+に契約すると、バックグラウンドでの実行が可能になります。ただし、実行中にブラウザのタブを閉じずにPCをシャットダウンすると、実行が中断されてしまいます。実行中は、**必ずブラウザのタブを閉じてからPCをシャットダウンするようにしてください。**
+
+**※ neoAI のアカウントで課金する必要があるので注意してください！ `@neoai.jp` のアカウントでないとデータの解凍などで困ります（あと経費が降りない場合があります）**
+
+**※全員、Slackチャンネルの** **#8-研修-all で申請する必要があります！**
+
+- 申請例
+    
+    [@ Shunsuke Chiba/千葉駿介/CEO](https://neoaihq.slack.com/team/U03LGHFKY14) [@ 森田 仁陽](https://neoaihq.slack.com/team/U06CQG6H4BD)
+    
+    ・概要：Colab Pro+ 契約費
+    
+    ・金額：5767円
+    
+    ・目的：研修のため
+    
+    ・なぜ投資対効果が出るのか：キッチリ研修してエンジニアとして強くなり、プロジェクトでバリューを出すため！
+    
+
+※　支払いに対応しているクレジットカードがない場合、会社のカードを代わりに使うので、上記の申請をSlackで行ったのち、@森田 仁陽に相談してください！
+
+</aside>
+
+- 3h [**アイシア](https://www.youtube.com/watch?v=RLlTmbyJORM&list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP&index=2)のYouTubeプレイリスト『[Deep Learningの世界](https://www.youtube.com/playlist?list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP)』を見る**
+    - まずは `vol.1~vol.12`まで（残りも空き時間に見ると良い）
+    - 画像・NLPの **定性的な理解** をする
+- 12h **書籍『最短コースでわかる PyTorch ＆深層学習プログラミング』を読む**
+    - PyTorchの基礎文法を理解する
+    - 基礎的な深層学習の用語と実装を理解する
+    - 参考) githubに上がっているこの書籍のコードを動かしてみると理解しやすい
+- 20h **Kaggleのコンペ『[Human Protein Atlas Image Classification](https://www.kaggle.com/competitions/human-protein-atlas-image-classification/submissions)』に取り組み, 精度向上レポートを作成する**
+    - 実験管理（再現性の確保・指標の可視化）ができる
+    - 画像認識の精度向上ができる
+    - 試した内容とその結果をレポート形式にわかりやすくまとめられる
+    
+    [Human Protein Atlas の手引き](https://www.notion.so/Human-Protein-Atlas-8cdb946b363e46b1958b1feb11f6fd18?pvs=21)
+    
+
+<aside>
+<img src="/icons/flag-swallowtail_orange.svg" alt="/icons/flag-swallowtail_orange.svg" width="40px" /> **成果物：Human Protein Atlasの精度向上レポート**
+
+- レポートテンプレート（「/page」で新しくページを作成してテンプレの中身をコピペしてください）
+    
+    [Protein report](https://www.notion.so/Protein-report-1b2f72de08c14950abefafdac6c16f71?pvs=21)
+    
+</aside>
+
+## **Part3**: 生成AI**の基礎 (~30h)**
+
+---
+
+<aside>
+🚀 **このパートの目的**
+
+- 生成AI応用の最先端を爆速でキャッチアップして、実プロジェクトに入れるようになる。
+- 商談時に直感的に理解してもらえるようなデモを作成する。
+</aside>
+
+### 3.1 画像生成AIの基礎
+
+<aside>
+<img src="/icons/playback-play-button_yellow.svg" alt="/icons/playback-play-button_yellow.svg" width="40px" /> 3h 勉強会動画視聴1&2（ハンズオンは行わなくて良い）
+
+---
+
+講義動画は以下の部分のみ視聴する
+
+- 第一回：`00:00-56:00, 1:01:00-2:01:00`
+    
+    [第一回画像生成AI講義録画](https://youtu.be/M4QiI0W3l28)
+    
+    [第一回講義資料.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98a44554-6550-43ba-990a-962a6221c126/%E7%AC%AC%E4%B8%80%E5%9B%9E%E8%AC%9B%E7%BE%A9%E8%B3%87%E6%96%99.pdf)
+    
+
+---
+
+- 第二回：`00:00-25:00, 45:00-1:00:00, 1:12:00-`
+    
+    [第二回画像生成AI講義録画](https://youtu.be/puI_YtcEyZo)
+    
+    [第二回講義資料.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d73bd6e9-551a-4ba0-9979-44aed8a30b15/%E7%AC%AC%E4%BA%8C%E5%9B%9E%E8%AC%9B%E7%BE%A9%E8%B3%87%E6%96%99.pdf)
+    
+
+---
+
+<aside>
+<img src="/icons/info-alternate_yellow.svg" alt="/icons/info-alternate_yellow.svg" width="40px" /> ※ハンズオンなどは古いノートブックなどを参照しておりあまり参考にならない
+
+</aside>
+
+</aside>
+
+- 1.5h ハンズオン + 追加インプット事項
+    - 以下のページに記載の手順に従って、ComfyUIで画像生成を行ってみる
+        - ⚠️**Google Driveの容量が画像生成実行時に足りなくなるので、個人Driveの全ファイルを削除してください。**
+            - 容量の目安は100MB程度に収まるようにしてください
+        
+        [画像生成講義手順書](https://www.notion.so/f519b429a2ca450f983396a7b9d1184f?pvs=21)
+        
+- 1h クイズ
+    
+    [生成 AI Quiz](https://www.notion.so/AI-Quiz-5b8d7e7a79a6464983f20d03ca92544f?pvs=21)
+    
+
+<aside>
+<img src="/icons/flag-swallowtail_orange.svg" alt="/icons/flag-swallowtail_orange.svg" width="40px" /> **成果物：生成した画像、内容に関する簡単なクイズ**
+
+</aside>
+
+**※ 3.1終了したら Google Colab Pro+ を解約してください** 
+
+**メンターはメンティーがGoogle Colab を解約しているか確認すること** 
+
+### 3.2 LLM（大規模言語モデル）の基礎 （+ 開発基礎）
+
+<aside>
+<img src="/icons/playback-play-button_yellow.svg" alt="/icons/playback-play-button_yellow.svg" width="40px" /> **2h 深層学習・LLM 勉強会の動画を視聴する**
+
+---
+
+- 以下の勉強会動画を視聴する
+    - `0:16:00〜`：深層学習の歴史・基礎・理論
+    - `1:24:00〜`：LLM の理論・運用方法
+    - `2:06:00〜`：neoAI Chat の仕組みから学ぶ AI システム
+
+[](https://neoaijp.sharepoint.com/:v:/s/AI/EWVZXQAbwztJuuyTlZMaWcwBnfI4b7VKGUwVzSbRy__pgQ?e=W0koWb)
+
+pdf 資料：https://drive.google.com/file/d/1Hv1IIkfu9KaMhVUgpdmjL8WBAF6oYb3H/view?usp=sharing
+
+</aside>
+
+- **補助動画**
+    
+    ---
+    
+    - **3Brown1Blue Japan（ https://www.youtube.com/@3Blue1BrownJapan ）**
+        - https://www.youtube.com/watch?v=KlZ-QmPteqM
+        - https://www.youtube.com/watch?v=j3_VgCt18fA
+            - （これもおすすめ）https://www.youtube.com/watch?v=WjAXZkQSE2U
+    - **アイシア（** https://www.youtube.com/@AIcia_Solid **）**
+        - https://www.youtube.com/watch?v=bPdyuIebXWM&list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP&index=24
+        - https://www.youtube.com/watch?v=50XvMaWhiTY&list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP&index=28
+        - https://www.youtube.com/watch?v=wDXPXgn5hX4&list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP&index=31
+        - https://www.youtube.com/watch?v=3BUk7mtf10M&list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP&index=33
+        - https://www.youtube.com/watch?v=CBZWzQVcXE4&list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP&index=40
+- 2h [Azure OpenAI Developers セミナー**（1:18:00まで）**](https://www.youtube.com/watch?v=tFgqdHKsOME)
+- 3h GitHubの使い方を学ぶ
+    
+    [Git / GitHub](https://www.notion.so/Git-GitHub-3bcbf2b71fde4317bd5693791ae73110?pvs=21) 
+    
+- 10h ChatGPTAPIを使った, 簡単なアプリケーション（デモ）をGradioで作成する
+    - [VSCode](https://www.notion.so/VSCode-cf0637d647aa41af865535140ca6687e?pvs=21) を参照してセッティング
+    
+    [研修資料: 実際の帳票から情報抽出しよう](https://www.notion.so/d221a1452b0843eba8dffae257cec666?pvs=21)
+    
+    - 研修用Organization
+        - Github（コード管理）
+        
+        [neoAI-inc-skill-building](https://github.com/neoAI-inc-skill-building)
+        
+        - Hugging Face（デプロイ）
+        
+        [neoAIOfficial-onb (neoAI-onb)](https://huggingface.co/neoAIOfficial-onb)
+        
+
+<aside>
+<img src="/icons/flag-swallowtail_orange.svg" alt="/icons/flag-swallowtail_orange.svg" width="40px" /> **成果物：ChatGPTAPIを使ったデモ**
+
+</aside>
+
+## **Part4**: プロジェクトに入る前の準備 **(4h)**
+
+---
+
+<aside>
+🚀 **このパートの目的**
+
+- スクラムなどの開発体制についての知識を身につける
+- neoAIで行われている様々なプロジェクトについて知る
+</aside>
+
+### スクラムについて（1.5h）
+
+- 1h スクラムの概要を掴む
+    
+    [スクラム | 用語解説 | 野村総合研究所(NRI)](https://www.nri.com/jp/knowledge/glossary/lst/sa/scrum#:~:text=スクラムとは,級フレームワークである。」)
+    
+- 0.5h neoAIにおけるスクラムの運用について知る
+    - 説明用のスライド
+        
+        [](https://neoaijp.sharepoint.com/:p:/s/AI/ETru2lHIKUVIjXoLeo3slGMB-MqxUJplcqQT5IGceg-PZw?e=qRgLV9)
+        
+    
+    [スクラムについて](https://www.notion.so/1e7b7096600247f69df07e675922d05e?pvs=21) 
+    
+
+### プロジェクト開発のルール（1.5h）
+
+- 0.5h 稼働する時のslack報告について知る
+    
+    [neoAIのプロジェクトのやり方](https://www.notion.so/neoAI-0304930b150d46e1bef98bf2e6f96a05?pvs=21) 
+    
+- 0.5h 稼働する時の時間管理について知る
+    
+    [togglの使い方](https://www.notion.so/toggl-3ecf11d325b947e5bf33bb1f7d8fa72c?pvs=21)
+    
+- 0.5h 外部MTGに出る準備をする
+    
+    [teamsの使い方](https://www.notion.so/teams-2cdad7e289944416832f926e192ea4c8?pvs=21) 
+    
+
+### どんなプロジェクトがあるのか知ろう（1h）
+
+- 1h 以下のリンクから各プロジェクトの「インセプションデッキ」を見てみよう
+
+[](https://neoaijp.sharepoint.com/:f:/s/AI/EpNUZ_cESURGvYmGWDuGez4BIyZgVZ10ookMuuhl7xvk-A?e=r7CyeH)
+
+### その他（1h）
+
+- 0.5h 以下のリンクから研修に関するアンケートに回答してください
+
+[研修アンケート](https://forms.gle/kYNAc8s4PAToSApU9)
+
+- 0.5h メンバークイズのスライド作成
+    
+    [役割分担](https://www.notion.so/1a0263865667807aaf70e5dd08775dd4?pvs=21)
